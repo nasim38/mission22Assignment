@@ -1,3 +1,47 @@
 body {
   margin: 0;
+  font-family: "Roboto", sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+h1 {
+  font-size: 40px;
+}
+.special-color {
+  color: orange;
+}
+.flexibility {
+  display: flex;
+}
+.intro-section {
+  /* first section of the page */
+  margin-bottom: 20px;
+}
+.half-section {
+  /* it will take half of the full page width */
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.half-section img {
+  width: 50%;
+}
+.main-heading {
+  /* there will be a left side border */
+  border-left: 5px solid red;
+}
+.primary-button {
+  /* primary button theme */
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: salmon;
+}
+.cards {
+  border-radius: 10px;
+  background-color: lightblue;
+  padding: 10px;
+  margin: 10px;
+}
+.cards img {
+  width: 30%;
 }
