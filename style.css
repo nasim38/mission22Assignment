@@ -6,6 +6,7 @@ body {
 }
 h1 {
   font-size: 40px;
+  margin: 5px;
 }
 .special-color {
   color: orange;
@@ -13,9 +14,9 @@ h1 {
 .flexibility {
   display: flex;
 }
-.intro-section {
+section {
   /* first section of the page */
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 .half-section {
   /* it will take half of the full page width */
@@ -44,4 +45,14 @@ h1 {
 }
 .cards img {
   width: 30%;
+}
+.centered-text {
+  text-align: center;
+}
+footer {
+  background-color: black;
+  padding: 20px;
+}
+.white-text {
+  color: white;
 }
