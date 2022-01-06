@@ -22,15 +22,14 @@ h4 {
 }
 section {
   /* first section of the page */
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 .half-section {
   /* it will take half of the full page width */
   width: 50%;
-  margin-left: auto;
-  margin-right: auto;
 }
 .half-section img {
+  /* to make an image half of its container  */
   width: 50%;
 }
 .main-heading {
@@ -45,6 +44,7 @@ section {
   background-color: salmon;
 }
 .cards {
+  /* cards decoration  */
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
@@ -64,7 +64,7 @@ section {
   background-color: lightcoral;
 }
 
-.centered-text {
+.centered {
   text-align: center;
 }
 footer {
