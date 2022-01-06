@@ -11,6 +11,9 @@ h1 {
   font-size: 40px;
   margin: 5px;
 }
+h4 {
+  color: rgb(90, 0, 0);
+}
 .special-color {
   color: orange;
 }
@@ -45,19 +48,22 @@ section {
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
-}
-#bg-lightblue {
-  background-color: lightblue;
-}
-#bg-lightgreen {
-  background-color: lightgreen;
-}
-#bg-lightcoral {
-  background-color: lightcoral;
+  max-width: 33.33%;
 }
 .cards img {
-  width: 30%;
+  width: 100px;
+  height: 100px;
 }
+.bg-lightblue {
+  background-color: lightblue;
+}
+.bg-lightgreen {
+  background-color: lightgreen;
+}
+.bg-lightcoral {
+  background-color: lightcoral;
+}
+
 .centered-text {
   text-align: center;
 }
